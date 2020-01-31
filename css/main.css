@@ -11,7 +11,13 @@ footer{
 	border-bottom: 1px solid #cccccc;
 }
 
+
 h1{
-	color:#ffa86a
-	border-bottom: double 10px #0000ff;
+	color:#ffa86a;
+	border-bottom-style: dotted;
+}
+h1.title{
+	background-color:#ffa86a;
+	color:#000;
+	border:none;
 }
