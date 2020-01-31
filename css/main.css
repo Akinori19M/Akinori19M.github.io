@@ -19,5 +19,28 @@ h1{
 h1.title{
 	background-color:#ffa86a;
 	color:#000;
-	border:none;
+	border-bottom-style: none;
+}
+
+span.post-date{
+	color:#ffa86a;
+	opacity:0.7;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+}
+
+nav a{
+text-align: center;
+color:#fff;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+margin: 0px 10px;
+}
+nav ul li a:hover{
+color:#ffa86a;
 }
