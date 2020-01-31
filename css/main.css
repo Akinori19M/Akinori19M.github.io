@@ -1,0 +1,17 @@
+﻿body{
+	background-color:#222129;
+	color:#fff;
+}
+
+header{
+	border-bottom:#EFEFEF;
+}
+footer{
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+h1{
+	color:#ffa86a
+	border-bottom: double 10px #0000ff;
+}
