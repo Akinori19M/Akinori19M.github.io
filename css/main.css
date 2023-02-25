@@ -3,6 +3,9 @@
 body{
 	background-color:#222129;
 	color:#fff;
+	width:960px;
+	margin-right: auto;
+	margin-left : auto;
 }
 
 header{
@@ -11,8 +14,13 @@ header{
 footer{
 	border-top: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
+	margin: 10px;
 }
 
+article{
+	margin: 10px 5px;
+
+}
 
 h1{
 	color:#ffa86a;
@@ -27,6 +35,7 @@ h1.title{
 span.post-date{
 	color:#ffa86a;
 	opacity:0.7;
+	text-align:right; 
 }
 
 nav ul{
@@ -41,7 +50,7 @@ nav a{
 nav ul li{
 	list-style: none;
 	display: inline-block;
-	margin: 0px 10px;
+	margin: 3px 10px;
 }
 nav ul li a:hover{
 	color:#ffa86a;
