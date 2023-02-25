@@ -1,5 +1,7 @@
 ﻿@charset "utf-8";
+/*---------------------------------
 
+---------------------------------*/
 body{
 	background-color:#222129;
 	color:#fff;
@@ -16,12 +18,17 @@ footer{
 	border-bottom: 1px solid #cccccc;
 	margin: 10px;
 }
+/*---------------------------------
+コンテンツ
+---------------------------------*/
 
 article{
 	margin: 10px 5px;
 
 }
-
+section ul li{
+	margin-left: 2.5em;
+}
 h1{
 	color:#ffa86a;
 	border-bottom-style: dotted;
@@ -31,13 +38,16 @@ h1.title{
 	color:#000;
 	border-bottom-style: none;
 }
-
-span.post-date{
+/*---------------------------------
+公開更新日
+---------------------------------*/
+div.post-date{
 	color:#ffa86a;
-	opacity:0.7;
-	text-align:right; 
+	text-align: right;
 }
-
+/*---------------------------------
+トップナビ
+---------------------------------*/
 nav ul{
 	margin: 0;
 	padding: 0;
